@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3c543ac8-7c31-4d08-8cbe-955a9ec01e12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/IndexRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/IndexRedirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/IndexRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/IndexRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Lifecycle.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Lifecycle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Redirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Route.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/RouteContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RouteContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umd/ReactRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/umd/ReactRouter.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +28,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            <state relative-caret-position="-101">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Redirect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/RouteContext.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -39,6 +72,7 @@
       <find>reactClass</find>
       <find>createClass</find>
       <find>propTypes</find>
+      <find>_react2.default.PropTypes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,17 +97,19 @@
         <option value="$PROJECT_DIR$/es6/IndexRedirect.js" />
         <option value="$PROJECT_DIR$/es6/Redirect.js" />
         <option value="$PROJECT_DIR$/es6/IndexRoute.js" />
-        <option value="$PROJECT_DIR$/lib/Route.js" />
         <option value="$PROJECT_DIR$/lib/IndexLink.js" />
         <option value="$PROJECT_DIR$/lib/RoutingContext.js" />
         <option value="$PROJECT_DIR$/lib/withRouter.js" />
         <option value="$PROJECT_DIR$/lib/Link.js" />
-        <option value="$PROJECT_DIR$/umd/ReactRouter.js" />
         <option value="$PROJECT_DIR$/lib/RouterContext.js" />
-        <option value="$PROJECT_DIR$/lib/Redirect.js" />
-        <option value="$PROJECT_DIR$/lib/IndexRoute.js" />
-        <option value="$PROJECT_DIR$/lib/IndexRedirect.js" />
         <option value="$PROJECT_DIR$/lib/Router.js" />
+        <option value="$PROJECT_DIR$/lib/Redirect.js" />
+        <option value="$PROJECT_DIR$/lib/RouteContext.js" />
+        <option value="$PROJECT_DIR$/lib/Route.js" />
+        <option value="$PROJECT_DIR$/lib/IndexRedirect.js" />
+        <option value="$PROJECT_DIR$/lib/IndexRoute.js" />
+        <option value="$PROJECT_DIR$/lib/Lifecycle.js" />
+        <option value="$PROJECT_DIR$/umd/ReactRouter.js" />
       </list>
     </option>
   </component>
@@ -111,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554056634752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554056923186" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -142,16 +178,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554055093429</updated>
-      <workItem from="1554055095249" duration="1539000" />
+      <workItem from="1554055095249" duration="1827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1539000" />
+    <option name="totallyTimeSpent" value="1827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -199,10 +234,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Redirect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/RouteContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        <state relative-caret-position="-101">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>

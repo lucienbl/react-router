@@ -859,9 +859,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
+	var _propTypes = require('prop-types');
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _React$PropTypes = _react2.default.PropTypes;
+	var _React$PropTypes = _propTypes;
 	var array = _React$PropTypes.array;
 	var func = _React$PropTypes.func;
 	var object = _React$PropTypes.object;
@@ -1917,11 +1919,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _PropTypes = __webpack_require__(15);
 
+	var _propTypes = require('prop-types');
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-	var _React$PropTypes = _react2.default.PropTypes;
+	var _React$PropTypes = _propTypes;
 	var bool = _React$PropTypes.bool;
 	var object = _React$PropTypes.object;
 	var string = _React$PropTypes.string;
@@ -2097,7 +2101,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _React$PropTypes = _react2.default.PropTypes;
+	var _React$PropTypes = _propTypes;
 	var string = _React$PropTypes.string;
 	var object = _React$PropTypes.object;
 
@@ -3277,7 +3281,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _React$PropTypes = _react2.default.PropTypes;
+	var _React$PropTypes = _propTypes;
 	var string = _React$PropTypes.string;
 	var object = _React$PropTypes.object;
 
@@ -3342,7 +3346,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var func = _react2.default.PropTypes.func;
+	var func = _propTypes.func;
 
 	/**
 	 * An <IndexRoute> is used to specify its parent's <Route indexRoute> in
@@ -3402,7 +3406,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var object = _react2.default.PropTypes.object;
+	var object = _propTypes.object;
 
 	/**
 	 * The Lifecycle mixin adds the routerWillLeave lifecycle method to a
@@ -3474,7 +3478,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _React$PropTypes = _react2.default.PropTypes;
+	var _React$PropTypes = _propTypes;
 	var string = _React$PropTypes.string;
 	var func = _React$PropTypes.func;
 
@@ -3531,7 +3535,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var object = _react2.default.PropTypes.object;
+	var object = _propTypes.object;
 
 	/**
 	 * The RouteContext mixin provides a convenient way for route
@@ -3620,7 +3624,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return history && history.getCurrentLocation;
 	}
 
-	var _React$PropTypes = _react2.default.PropTypes;
+	var _React$PropTypes = _propTypes;
 	var func = _React$PropTypes.func;
 	var object = _React$PropTypes.object;
 
