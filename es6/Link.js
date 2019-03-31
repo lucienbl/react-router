@@ -3,11 +3,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import warning from './routerWarning';
 import invariant from 'invariant';
 import { routerShape } from './PropTypes';
 
-var _React$PropTypes = React.PropTypes;
+var _React$PropTypes = PropTypes;
 var bool = _React$PropTypes.bool;
 var object = _React$PropTypes.object;
 var string = _React$PropTypes.string;

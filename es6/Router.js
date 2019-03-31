@@ -6,6 +6,7 @@ import createHashHistory from 'history/lib/createHashHistory';
 import useQueries from 'history/lib/useQueries';
 import invariant from 'invariant';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import createTransitionManager from './createTransitionManager';
 import { routes } from './InternalPropTypes';
@@ -24,7 +25,7 @@ function isUnsupportedHistory(history) {
   return history && history.getCurrentLocation;
 }
 
-var _React$PropTypes = React.PropTypes;
+var _React$PropTypes = PropTypes;
 var func = _React$PropTypes.func;
 var object = _React$PropTypes.object;
 

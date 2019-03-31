@@ -1,10 +1,11 @@
 import React from 'react';
 import invariant from 'invariant';
+import PropTypes from 'prop-types';
 import { createRouteFromReactElement as _createRouteFromReactElement } from './RouteUtils';
 import { formatPattern } from './PatternUtils';
 import { falsy } from './InternalPropTypes';
 
-var _React$PropTypes = React.PropTypes;
+var _React$PropTypes = PropTypes;
 var string = _React$PropTypes.string;
 var object = _React$PropTypes.object;
 

@@ -1,7 +1,8 @@
 import warning from './routerWarning';
 import React from 'react';
+import PropTypes from 'prop-types';
 
-var object = React.PropTypes.object;
+var object = PropTypes.object;
 
 /**
  * The RouteContext mixin provides a convenient way for route

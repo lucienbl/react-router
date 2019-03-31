@@ -5,12 +5,14 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 import invariant from 'invariant';
 import React from 'react';
 
+import PropTypes from 'prop-types';
+
 import deprecateObjectProperties from './deprecateObjectProperties';
 import getRouteParams from './getRouteParams';
 import { isReactChildren } from './RouteUtils';
 import warning from './routerWarning';
 
-var _React$PropTypes = React.PropTypes;
+var _React$PropTypes = PropTypes;
 var array = _React$PropTypes.array;
 var func = _React$PropTypes.func;
 var object = _React$PropTypes.object;

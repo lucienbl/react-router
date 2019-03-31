@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import warning from './routerWarning';
 import invariant from 'invariant';
 import { createRouteFromReactElement as _createRouteFromReactElement } from './RouteUtils';
 import { component, components, falsy } from './InternalPropTypes';
 
-var func = React.PropTypes.func;
+var func = PropTypes.func;
 
 /**
  * An <IndexRoute> is used to specify its parent's <Route indexRoute> in

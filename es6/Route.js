@@ -2,8 +2,9 @@ import React from 'react';
 import invariant from 'invariant';
 import { createRouteFromReactElement } from './RouteUtils';
 import { component, components } from './InternalPropTypes';
+import PropTypes from 'prop-types';
 
-var _React$PropTypes = React.PropTypes;
+var _React$PropTypes = PropTypes;
 var string = _React$PropTypes.string;
 var func = _React$PropTypes.func;
 

@@ -491,13 +491,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react = __webpack_require__(2);
 
-	var func = _react.PropTypes.func;
-	var object = _react.PropTypes.object;
-	var arrayOf = _react.PropTypes.arrayOf;
-	var oneOfType = _react.PropTypes.oneOfType;
-	var element = _react.PropTypes.element;
-	var shape = _react.PropTypes.shape;
-	var string = _react.PropTypes.string;
+	var _propTypes = require('prop-types');
+
+	var func = _propTypes.func;
+	var object = _propTypes.object;
+	var arrayOf = _propTypes.arrayOf;
+	var oneOfType = _propTypes.oneOfType;
+	var element = _propTypes.element;
+	var shape = _propTypes.shape;
+	var string = _propTypes.string;
 	function falsy(props, propName, componentName) {
 	  if (props[propName]) return new Error('<' + componentName + '> should not have a "' + propName + '" prop');
 	}
@@ -1372,10 +1374,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var func = _react.PropTypes.func;
-	var object = _react.PropTypes.object;
-	var shape = _react.PropTypes.shape;
-	var string = _react.PropTypes.string;
+	var func = _propTypes.func;
+	var object = _propTypes.object;
+	var shape = _propTypes.shape;
+	var string = _propTypes.string;
 	var routerShape = exports.routerShape = shape({
 	  push: func.isRequired,
 	  replace: func.isRequired,
