@@ -6,6 +6,7 @@ import invariant from 'invariant';
 import React from 'react';
 
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 import deprecateObjectProperties from './deprecateObjectProperties';
 import getRouteParams from './getRouteParams';
@@ -22,7 +23,7 @@ var object = _React$PropTypes.object;
  * and sets the history object and the current location in context.
  */
 
-var RouterContext = React.createClass({
+var RouterContext = createReactClass({
   displayName: 'RouterContext',
 
 

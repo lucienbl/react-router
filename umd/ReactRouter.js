@@ -843,6 +843,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var createReactClass = require('create-react-class');
+
 	var _deprecateObjectProperties = __webpack_require__(11);
 
 	var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
@@ -869,7 +871,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * and sets the history object and the current location in context.
 	 */
 
-	var RouterContext = _react2.default.createClass({
+	var RouterContext = createReactClass({
 	  displayName: 'RouterContext',
 
 
@@ -1972,7 +1974,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 *   <Link ... query={{ show: true }} state={{ the: 'state' }} />
 	 */
-	var Link = _react2.default.createClass({
+	var Link = createReactClass({
 	  displayName: 'Link',
 
 
@@ -2107,7 +2109,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * and are traversed in the same manner.
 	 */
 
-	var Redirect = _react2.default.createClass({
+	var Redirect = createReactClass({
 	  displayName: 'Redirect',
 
 
@@ -3238,7 +3240,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/**
 	 * An <IndexLink> is used to link to an <IndexRoute>.
 	 */
-	var IndexLink = _react2.default.createClass({
+	var IndexLink = createReactClass({
 	  displayName: 'IndexLink',
 	  render: function render() {
 	    return _react2.default.createElement(_Link2.default, _extends({}, this.props, { onlyActiveOnIndex: true }));
@@ -3283,7 +3285,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * An <IndexRedirect> is used to redirect from an indexRoute.
 	 */
 
-	var IndexRedirect = _react2.default.createClass({
+	var IndexRedirect = createReactClass({
 	  displayName: 'IndexRedirect',
 
 
@@ -3347,7 +3349,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * a JSX route config.
 	 */
 
-	var IndexRoute = _react2.default.createClass({
+	var IndexRoute = createReactClass({
 	  displayName: 'IndexRoute',
 
 
@@ -3487,7 +3489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * rendered into the DOM, nested in the same order as in the tree.
 	 */
 
-	var Route = _react2.default.createClass({
+	var Route = createReactClass({
 	  displayName: 'Route',
 
 
@@ -3628,7 +3630,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * it needs each time the URL changes.
 	 */
 
-	var Router = _react2.default.createClass({
+	var Router = createReactClass({
 	  displayName: 'Router',
 
 
@@ -3810,7 +3812,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var RoutingContext = _react2.default.createClass({
+	var RoutingContext = createReactClass({
 	  displayName: 'RoutingContext',
 	  componentWillMount: function componentWillMount() {
 	     true ? (0, _routerWarning2.default)(false, '`RoutingContext` has been renamed to `RouterContext`. Please use `import { RouterContext } from \'react-router\'`. http://tiny.cc/router-routercontext') : void 0;
@@ -4798,7 +4800,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	function withRouter(WrappedComponent, options) {
 	  var withRef = options && options.withRef;
 
-	  var WithRouter = _react2.default.createClass({
+	  var WithRouter = createReactClass({
 	    displayName: 'WithRouter',
 
 	    contextTypes: { router: _PropTypes.routerShape },

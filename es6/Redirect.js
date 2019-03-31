@@ -1,6 +1,7 @@
 import React from 'react';
 import invariant from 'invariant';
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 import { createRouteFromReactElement as _createRouteFromReactElement } from './RouteUtils';
 import { formatPattern } from './PatternUtils';
 import { falsy } from './InternalPropTypes';
@@ -17,7 +18,7 @@ var object = _React$PropTypes.object;
  * and are traversed in the same manner.
  */
 
-var Redirect = React.createClass({
+var Redirect = createReactClass({
   displayName: 'Redirect',
 
 

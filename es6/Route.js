@@ -3,6 +3,7 @@ import invariant from 'invariant';
 import { createRouteFromReactElement } from './RouteUtils';
 import { component, components } from './InternalPropTypes';
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 var _React$PropTypes = PropTypes;
 var string = _React$PropTypes.string;
@@ -19,7 +20,7 @@ var func = _React$PropTypes.func;
  * rendered into the DOM, nested in the same order as in the tree.
  */
 
-var Route = React.createClass({
+var Route = createReactClass({
   displayName: 'Route',
 
 

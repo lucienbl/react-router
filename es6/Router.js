@@ -7,6 +7,7 @@ import useQueries from 'history/lib/useQueries';
 import invariant from 'invariant';
 import React from 'react';
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 import createTransitionManager from './createTransitionManager';
 import { routes } from './InternalPropTypes';
@@ -35,7 +36,7 @@ var object = _React$PropTypes.object;
  * it needs each time the URL changes.
  */
 
-var Router = React.createClass({
+var Router = createReactClass({
   displayName: 'Router',
 
 

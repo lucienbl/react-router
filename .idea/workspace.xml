@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c543ac8-7c31-4d08-8cbe-955a9ec01e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/IndexLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/IndexLink.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/IndexRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/IndexRedirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/IndexRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/IndexRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/Lifecycle.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/Lifecycle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/Link.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/Redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/Redirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/Route.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/Route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/RouteContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/RouteContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/Router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/RouterContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/RouterContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/InternalPropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/InternalPropTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/RoutingContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/RoutingContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/withRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/withRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/IndexLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/IndexLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/IndexRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/IndexRedirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/IndexRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/IndexRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Link.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/PropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/PropTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Redirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Route.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/RouterContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RouterContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/RoutingContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RoutingContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/withRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/withRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umd/ReactRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/umd/ReactRouter.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,6 +48,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>propTypes</find>
+      <find>React.propTypes</find>
+      <find>reactClass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,19 +60,31 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/es6/RouteContext.js" />
-        <option value="$PROJECT_DIR$/es6/Route.js" />
-        <option value="$PROJECT_DIR$/es6/Router.js" />
-        <option value="$PROJECT_DIR$/lib/Link.js" />
         <option value="$PROJECT_DIR$/lib/PropTypes.js" />
-        <option value="$PROJECT_DIR$/lib/RouterContext.js" />
-        <option value="$PROJECT_DIR$/es6/RouterContext.js" />
-        <option value="$PROJECT_DIR$/es6/Link.js" />
-        <option value="$PROJECT_DIR$/es6/IndexRedirect.js" />
         <option value="$PROJECT_DIR$/lib/InternalPropTypes.js" />
-        <option value="$PROJECT_DIR$/umd/ReactRouter.js" />
+        <option value="$PROJECT_DIR$/es6/Lifecycle.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/es6/Route.js" />
+        <option value="$PROJECT_DIR$/es6/IndexLink.js" />
+        <option value="$PROJECT_DIR$/es6/RoutingContext.js" />
+        <option value="$PROJECT_DIR$/es6/withRouter.js" />
+        <option value="$PROJECT_DIR$/es6/Router.js" />
+        <option value="$PROJECT_DIR$/es6/Link.js" />
+        <option value="$PROJECT_DIR$/es6/RouterContext.js" />
+        <option value="$PROJECT_DIR$/es6/IndexRedirect.js" />
         <option value="$PROJECT_DIR$/es6/Redirect.js" />
         <option value="$PROJECT_DIR$/es6/IndexRoute.js" />
-        <option value="$PROJECT_DIR$/es6/Lifecycle.js" />
+        <option value="$PROJECT_DIR$/lib/Route.js" />
+        <option value="$PROJECT_DIR$/lib/IndexLink.js" />
+        <option value="$PROJECT_DIR$/lib/RoutingContext.js" />
+        <option value="$PROJECT_DIR$/lib/withRouter.js" />
+        <option value="$PROJECT_DIR$/lib/Router.js" />
+        <option value="$PROJECT_DIR$/lib/Link.js" />
+        <option value="$PROJECT_DIR$/umd/ReactRouter.js" />
+        <option value="$PROJECT_DIR$/lib/RouterContext.js" />
+        <option value="$PROJECT_DIR$/lib/Redirect.js" />
+        <option value="$PROJECT_DIR$/lib/IndexRoute.js" />
+        <option value="$PROJECT_DIR$/lib/IndexRedirect.js" />
       </list>
     </option>
   </component>
@@ -104,7 +122,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554055829336" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554056482987" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,12 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554055093429</updated>
-      <workItem from="1554055095249" duration="734000" />
+      <workItem from="1554055095249" duration="1387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="734000" />
+    <option name="totallyTimeSpent" value="1387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />

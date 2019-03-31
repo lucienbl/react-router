@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 import warning from './routerWarning';
 import invariant from 'invariant';
 import { createRouteFromReactElement as _createRouteFromReactElement } from './RouteUtils';
@@ -12,7 +13,7 @@ var func = PropTypes.func;
  * a JSX route config.
  */
 
-var IndexRoute = React.createClass({
+var IndexRoute = createReactClass({
   displayName: 'IndexRoute',
 
 

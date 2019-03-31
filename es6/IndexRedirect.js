@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 import warning from './routerWarning';
 import invariant from 'invariant';
 import Redirect from './Redirect';
@@ -13,7 +14,7 @@ var object = _React$PropTypes.object;
  * An <IndexRedirect> is used to redirect from an indexRoute.
  */
 
-var IndexRedirect = React.createClass({
+var IndexRedirect = createReactClass({
   displayName: 'IndexRedirect',
 
 
